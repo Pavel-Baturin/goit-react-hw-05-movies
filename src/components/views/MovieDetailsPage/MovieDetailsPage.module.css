@@ -1,0 +1,79 @@
+.button {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  font: inherit;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.button:hover,
+.button:focus {
+  cursor: pointer;
+  background-color: blue;
+  border-color: blue;
+  color: #fff;
+}
+
+.card {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  border-radius: 10px;
+  width: 240px;
+}
+
+.description {
+  padding: 15px;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.score {
+  margin-bottom: 7px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.textAсcent {
+  display: flex;
+  margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.overview {
+  margin-bottom: 12px;
+}
+
+.listLink {
+  padding: 10px 0px;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.item:last-child {
+  margin-bottom: 0px;
+}
+
+.link {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.link:hover,
+.link:focus {
+  color: blue;
+  text-decoration: underline;
+}

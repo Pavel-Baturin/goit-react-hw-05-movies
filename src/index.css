@@ -13,3 +13,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 26px;
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.active {
+  color: #ff6b08;
+  text-decoration: underline;
+}
+
+.fallback {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 50px;
+  font-weight: 700;
+}

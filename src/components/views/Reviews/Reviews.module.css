@@ -1,0 +1,15 @@
+.list {
+  padding: 10px 0px;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.item:last-child {
+  margin-bottom: 0px;
+}
+
+.title {
+  margin-bottom: 10px;
+}

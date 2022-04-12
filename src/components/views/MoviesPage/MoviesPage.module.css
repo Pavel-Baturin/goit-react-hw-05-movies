@@ -1,0 +1,105 @@
+.form {
+  display: flex;
+  width: 500px;
+  margin: 20px auto;
+  padding: 8px;
+  background-color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.buttonBack {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-right: auto;
+  font: inherit;
+  width: 60px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.buttonBack:hover,
+.buttonBack:focus {
+  cursor: pointer;
+  background-color: #ff6b08;
+  border-color: #ff6b08;
+  color: #fff;
+}
+
+.input {
+  width: 420px;
+  padding: 8px;
+  font: inherit;
+  border: solid 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.input:hover,
+.input:focus {
+  border: solid 2px #ff6b08;
+}
+
+.gallery {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -15px;
+}
+
+.film {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc((100% - 90px) / 3);
+  margin: 15px;
+}
+
+.thumb {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.link {
+  margin-top: 10px;
+  padding: 7px 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.link:hover,
+.link:focus {
+  color: #ff6b08;
+  text-decoration: underline;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.button {
+  padding: 5px;
+  min-width: 35px;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  font-size: 17px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.button:not([disabled]):hover,
+.button:not([disabled]):focus {
+  cursor: pointer;
+  background-color: #ff6b08;
+  border-color: #ff6b08;
+  color: #fff;
+}
+
+.page {
+  padding: 6px 17px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-weight: 500;
+}
