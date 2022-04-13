@@ -1,5 +1,6 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { useParams, useNavigate, Link, Routes, Route } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import { ApiService } from '../../ApiService/ApiService';
 import s from './MovieDetailsPage.module.css';
 const Cast = lazy(() => import('../Cast/Cast'));
@@ -71,3 +72,7 @@ export default function MovieDetailsPage() {
     </>
   );
 }
+
+MovieDetailsPage.propTypes = {
+  movieId: PropTypes.string.isRequired,
+};

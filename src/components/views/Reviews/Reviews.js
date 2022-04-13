@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { ApiService } from '../../ApiService/ApiService';
 import s from './Reviews.module.css';
 
@@ -26,3 +27,7 @@ export default function Reviews({ id }) {
     </ul>
   );
 }
+
+Reviews.propTypes = {
+  id: PropTypes.string.isRequired,
+};

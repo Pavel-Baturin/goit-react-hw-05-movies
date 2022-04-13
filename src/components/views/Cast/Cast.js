@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { ApiService } from '../../ApiService/ApiService';
 import s from './Cast.module.css';
 import image from '../images/film-null@1x.jpg';
@@ -37,3 +38,7 @@ export default function Cast({ id }) {
     </ul>
   );
 }
+
+Cast.propTypes = {
+  id: PropTypes.string.isRequired,
+};
