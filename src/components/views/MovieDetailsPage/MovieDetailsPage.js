@@ -50,12 +50,20 @@ export default function MovieDetailsPage() {
             <p className={s.textAсcent}>Additional information</p>
             <ul className={s.listLink}>
               <li className={s.item}>
-                <Link to="cast" className={s.link}>
+                <Link
+                  to="cast"
+                  onClick={() => navigate(`movies/${movieId}/cast`)}
+                  className={s.link}
+                >
                   cast
                 </Link>
               </li>
               <li className={s.item}>
-                <Link to="reviews" className={s.link}>
+                <Link
+                  to="reviews"
+                  onClick={() => navigate(`movies/${movieId}/reviews`)}
+                  className={s.link}
+                >
                   reviews
                 </Link>
               </li>

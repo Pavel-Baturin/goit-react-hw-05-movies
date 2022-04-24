@@ -10,8 +10,8 @@
 .button:hover,
 .button:focus {
   cursor: pointer;
-  background-color: blue;
-  border-color: blue;
+  background-color: #ff6b08;
+  border-color: #ff6b08;
   color: #fff;
 }
 
@@ -74,6 +74,6 @@
 
 .link:hover,
 .link:focus {
-  color: blue;
+  color: #ff6b08;
   text-decoration: underline;
 }
